@@ -6,12 +6,9 @@ const Body = () => {
   return (
     <section>
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>
-          <Header />
-        </h1> */}
-        <p className={styles.description}>
-          <q>Learn by doing something new today</q>
-        </p>
+        <h3 className={styles.quote}>
+          <q>Have the courage to follow your heart and intuition</q>
+        </h3>
 
         <AccountLnks />
       </main>

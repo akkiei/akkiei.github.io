@@ -32,7 +32,7 @@ const AccountLinks = () => {
           rel="noreferrer"
         >
           <h2>Resume &rarr;</h2>
-          <p>Download my resume for quick summary of my journey!</p>
+          <p>Download my resume for quick summary !</p>
         </a>
 
         <a
@@ -42,7 +42,7 @@ const AccountLinks = () => {
           rel="noreferrer"
         >
           <h2>Send Email &rarr;</h2>
-          <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+          <p>Want to work together or have something for me ?</p>
         </a>
       </div>{" "}
     </section>
