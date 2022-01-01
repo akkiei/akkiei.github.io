@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-
+import EmailCard from './EmailCard'
 const AccountLinks = () => {
   return (
     <section>
@@ -12,7 +12,7 @@ const AccountLinks = () => {
           rel="noreferrer"
         >
           <h2>GitHub &rarr;</h2>
-          <p>Checkout my github to know what I&apos;m upto these days</p>
+          <p>Checkout my github to know what I&apos;m upto these days...</p>
         </a>
 
         <a
@@ -29,22 +29,14 @@ const AccountLinks = () => {
           href="https://drive.google.com/file/d/1vGEQlo7Xr6I3WLjHwRq2GPWN21Hi-TZU/view?usp=sharing"
           className={styles.card}
           target="_blank"
-          rel="noreferrer"
+          // rel="noreferrer"
         >
           <h2>Resume &rarr;</h2>
-          <p>Download my resume for quick summary !</p>
+          <p>Download my resume for a quick summary !</p>
         </a>
 
-        <a
-          href="mailto:akashdeepshukla007@gmail.com"
-          className={styles.card}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <h2>Send Email &rarr;</h2>
-          <p>Want to work together or have something for me ?</p>
-        </a>
-      </div>{" "}
+        <EmailCard/>
+      </div>
     </section>
   );
 };

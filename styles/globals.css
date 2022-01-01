@@ -1,11 +1,12 @@
 html,
 body {
+  font-family: 'Cairo', sans-serif;
   padding: 0;
   margin: 0;
-  background: linear-gradient(90deg, #ee7752, #ee5992, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 10s alternate infinite;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(91deg, #ee7752, #ee5992, #23a6d5, #206353);
+  background-size: 600%;
+  animation: gradient 5s alternate-reverse infinite;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 @keyframes gradient {
@@ -13,7 +14,7 @@ body {
     background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 50% 0%;
   }
   100% {
     background-position: 0% 50%;

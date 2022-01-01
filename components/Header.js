@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
+import Intro from './Intro';
 
 const Header = () => {
-  return <h5> Hello I&apos;m Akash and I&apos;m a software developer</h5>;
+  return <Intro />;
 };
 
 export default Header;
