@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="description" content="his is the portfolio of Akash Deep Shukla" />
         <link rel="icon" href="/akash-icon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet" />
       </Head>
       <h1 className={styles.title}>
