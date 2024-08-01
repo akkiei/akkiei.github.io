@@ -27,7 +27,7 @@ const AccountLinks = () => {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1lDaAHDgeJuVi_oFxrxWkM9aMD36lvuxP/view?usp=sharing"
+          href="https://docs.google.com/document/d/1MxveNVDqZqmg0wADr9n0TXEdhUicIOdcK8611Vmb8po/edit?usp=sharing"
           className={styles.card}
           target="_blank"
           rel="noreferrer"
