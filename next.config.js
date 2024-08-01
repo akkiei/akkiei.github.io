@@ -2,7 +2,7 @@ module.exports = {
   reactStrictMode: true,
   basePath: "/akkiei.github.io",
   assetPrefix: "/akkiei.github.io",
-  trailingSlash: true,
+  exportTrailingSlash: true,
   images: {
     loader: "imgix",
     path: "https://noop/",
