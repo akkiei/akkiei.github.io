@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import EmailCard from './EmailCard'
+import EmailCard from "./EmailCard";
+
 const AccountLinks = () => {
   return (
     <section>
@@ -29,13 +30,13 @@ const AccountLinks = () => {
           href="https://drive.google.com/file/d/1lDaAHDgeJuVi_oFxrxWkM9aMD36lvuxP/view?usp=sharing"
           className={styles.card}
           target="_blank"
-          // rel="noreferrer"
+          rel="noreferrer"
         >
           <h2>Resume &rarr;</h2>
           <p>Download my resume for a quick summary !</p>
         </a>
 
-        <EmailCard/>
+        <EmailCard />
       </div>
     </section>
   );
